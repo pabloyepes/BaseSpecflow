@@ -27,6 +27,7 @@ namespace PageObject
         public void Search(string search)
         {
             this.SearchInput.SendKeys(search);
+            this.SearchInput.SendKeys(Keys.Return);
             Thread.Sleep(10000);
         }
     }

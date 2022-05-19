@@ -3,4 +3,4 @@ Simple search in google
 
 @mytag
 Scenario: Add two numbers
-	Given I search "Test" in google home page
+	Given I search "Avianca" in google home page
